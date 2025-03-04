@@ -29,6 +29,9 @@ ENV PORT=8080
 # Copy the custom Nginx configuration
 COPY nginx.conf /etc/nginx/templates/default.conf
 
+# Copy the MkDocs generated static site
+COPY --from=builder /docs/site /usr/share/nginx/html
+
 # Expose the Cloud Run default port (this is metadata)
 EXPOSE 8080
 
