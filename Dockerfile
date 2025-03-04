@@ -27,7 +27,7 @@ FROM nginx:latest
 COPY --from=builder /docs/site /usr/share/nginx/html
 
 # Expose the necessary port
-EXPOSE 9080
+EXPOSE 8080
 
 # Run Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
