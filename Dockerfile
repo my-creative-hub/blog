@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r /docs/requirements.txt
 RUN mkdocs build --clean
 
 # Use Nginx as the final serving image
-FROM nginx:alpine
+FROM nginx:latest
 
 # Set environment variable (Cloud Run injects $PORT)
 ENV PORT=8080
