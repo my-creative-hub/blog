@@ -2,7 +2,7 @@
 
 2. Activate the virtual environment using the command `conda activate ml_a3`
 
-3. `pip install mkdocs-material`
+3. `pip install -r requirements.txt`
 
 4. To set up the new site `mkdocs new .`
 

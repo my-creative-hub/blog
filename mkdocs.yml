@@ -1,19 +1,49 @@
-site_name: My Docs
+site_name: Juggler's rant
+site_description: A bloggin site built with Material for Mkdocs.
 site_url: https://blog.gayathri.dev
 theme:
   name: material
-  features:
-    - navigation.sections
-  palette:
+  palette: 
+    # Palette toggle for light mode
     - scheme: default
       primary: teal
-      accent: teal
+      accent: teal    
       toggle:
-        icon: material/weather-night
+        icon: material/weather-night 
         name: Switch to dark mode
+
+
+    # Palette toggle for dark mode
     - scheme: slate
       primary: teal
-      accent: teal
+      accent: teal    
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode     
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      post_url_format: "{slug}"
+      pagination_per_page: 5
+      blog_toc: true
+  - tags:
+      tags_file: tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/g3ram
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gayathri-ram/     
+
+hooks:
+  - hooks/socialmedia.py
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
