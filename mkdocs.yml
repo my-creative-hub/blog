@@ -3,6 +3,7 @@ site_description: A bloggin site built with Material for Mkdocs.
 site_url: https://blog.gayathri.dev
 theme:
   name: material
+  custom_dir: overrides
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -30,6 +31,16 @@ plugins:
       blog_toc: true
   - tags:
       tags_file: tags.md
+  - git-committers:
+      enabled: true
+      repository: my-creative-hub/blog
+      branch: main
+      token: !ENV GH_BLOG_TOKEN
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: false
+      enable_creation_date: true
+      enabled: true
 
 extra:
   social:
