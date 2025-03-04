@@ -29,7 +29,10 @@ theme:
       accent: teal
       toggle:
         icon: material/toggle-switch-off
-        name: Switch to system preference  
+        name: Switch to system preference 
+  font:
+    text: Roboto
+    code: Roboto Mono       
 
 plugins:
   - search
