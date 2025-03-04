@@ -1,26 +1,35 @@
 site_name: Juggler's rant
 site_description: A bloggin site built with Material for Mkdocs.
 site_url: https://blog.gayathri.dev
+# Repository
+repo_name: my-creative-hub/blog
+repo_url: https://github.com/my-creative-hub/blog
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2025 Gayathri Ramakrishnan
+
 theme:
   name: material
   custom_dir: overrides
-  palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      primary: teal
-      accent: teal    
+  palette:
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-night 
-        name: Switch to dark mode
-
-
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: teal
-      accent: teal    
-      toggle:
-        icon: material/weather-sunny
+        icon: material/link
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference  
 
 plugins:
   - search
