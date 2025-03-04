@@ -23,11 +23,14 @@ RUN mkdocs build --clean
 # Use Nginx as the final serving image
 FROM nginx:latest
 
-# Copy the generated static site from the builder stage
-COPY --from=builder /docs/site /usr/share/nginx/html
+# Set environment variable (Cloud Run injects $PORT)
+ENV PORT=8080
 
-# Expose the necessary port
+# Copy the custom Nginx configuration
+COPY nginx.conf /etc/nginx/templates/default.conf
+
+# Expose the Cloud Run default port (this is metadata)
 EXPOSE 8080
 
-# Run Nginx in the foreground
-CMD ["nginx", "-g", "daemon off;"]
+# Replace ${PORT} with actual value and start Nginx
+CMD ["sh", "-c", "envsubst '$$PORT' < /etc/nginx/templates/default.conf > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"]
