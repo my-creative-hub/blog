@@ -12,10 +12,8 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.footer
     - navigation.indexes
     - navigation.tabs  
-    - navivation.section
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -122,8 +120,4 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree
-nav:
-  - Home: 
-    - index.md  
 
