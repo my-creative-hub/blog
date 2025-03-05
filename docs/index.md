@@ -1,13 +1,13 @@
 # Juggler's Rant
 
-## Claude Code: First Impressions
+## Lorem Ipsum: First Impressions
 
 📅 **24 Feb 2025**  
-📂 **Category:** [tech-explorations](#)  
-🏷️ **Tags:** [AI](#) / [coding-assistants](#) / [agentic-systems](#) / [LLM](#)
+📂 **Category:** [user-interface](#)  
+🏷️ **Tags:** [HCI](#) / [need-finding](#) / [perceptability](#) / [UIUX](#)
 
-Today I tried Claude Code, the new agentic coding tool announced by Anthropic this morning. Unlike other agentic tools, Claude Code is a CLI tool. Claude has been my favorite AI coding partner so far. I use it via GitHub Copilot and as a standalone through its web interface. I was curious to see how it works in CLI and decided to give it a try.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-In this post, I share my first impressions of using Claude Code—how I set it up, what I loved about it, what I didn’t, and how it compares to other similar tools.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[**Read more »**](interface-design/browser/browser.md)
+[**Read more »**](machine-learning/tools/numpy.md)
