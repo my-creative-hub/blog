@@ -51,11 +51,11 @@ plugins:
   - search
   - tags:
       enabled: true 
-  # - git-committers:
-  #     enabled: true
-  #     repository: my-creative-hub/blog
-  #     branch: main
-  #     token: !ENV GH_BLOG_TOKEN
+  - git-committers:
+      enabled: true
+      repository: my-creative-hub/blog
+      branch: main
+      token: !ENV GH_BLOG_TOKEN
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: false
@@ -66,6 +66,13 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.    
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY

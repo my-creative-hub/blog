@@ -1,3 +1,8 @@
+---
+show:
+  - feedback
+---
+
 # Let's have a go at Numpy
 
 Instant prefetching is a new experimental feature that will start to fetch a
