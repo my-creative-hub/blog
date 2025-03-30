@@ -8,15 +8,13 @@ tags:
 slug: mom-to-mentor
 ---
 
-# Mom to Mentor
-
-## A Plot Twist I Never Saw Coming
+# Mom to Mentor: A Plot Twist I Never Saw Coming
 
 If you'd told me ten years ago that I’d go from juggling snack boxes and story time to reviewing pull requests and mentoring junior developers, I would’ve laughed out loud—probably while picking glitter out of my hair or stepping on a Lego barefoot.
 
-But here I am. And the journey? Not exactly linear. More like one of those twisty-turny GPS routes that say, "Recalculating..." every five minutes.
-
 <!-- more -->
+
+But here I am. And the journey? Not exactly linear. More like one of those twisty-turny GPS routes that say, "Recalculating..." every five minutes.
 
 This is the story of how motherhood didn’t pause my career—it transformed it. How years spent nurturing tiny humans gave me the tools, grit, and unexpected insights to help nurture fellow professionals in tech.
 
