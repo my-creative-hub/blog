@@ -14,6 +14,8 @@ If you'd told me ten years ago that I’d go from juggling snack boxes and story
 
 <!-- more -->
 
+![Mentoring starts at home](images/mom-to-mentor.jpg){ width="350", align="left" }
+
 But here I am. And the journey? Not exactly linear. More like one of those twisty-turny GPS routes that say, "Recalculating..." every five minutes.
 
 This is the story of how motherhood didn’t pause my career—it transformed it. How years spent nurturing tiny humans gave me the tools, grit, and unexpected insights to help nurture fellow professionals in tech.
