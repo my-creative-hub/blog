@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-04-03
+  created: 2024-04-03
 categories:
   - Reflections
 tags:
@@ -8,7 +8,9 @@ tags:
 slug: mom-to-mentor
 ---
 
-# Mom to Mentor: A Plot Twist I Never Saw Coming
+# Mom to Mentor
+
+## A Plot Twist I Never Saw Coming
 
 If you'd told me ten years ago that I’d go from juggling snack boxes and story time to reviewing pull requests and mentoring junior developers, I would’ve laughed out loud—probably while picking glitter out of my hair or stepping on a Lego barefoot.
 
@@ -67,3 +69,31 @@ You’d be surprised how many leadership lessons come from parenting:
     <li><strong>Boundaries are healthy.</strong> Whether it’s bedtime routines or work-life balance, setting expectations and sticking to them builds trust.</li>
     <li><strong>Curiosity drives learning.</strong> Kids ask “why?” a thousand times a day. Encouraging that same curiosity in your team keeps innovation alive.</li>
 </ul>
+
+## The Confidence Gap Is Real (But So Is the Comeback)
+
+Let’s be honest: coming back after a career break is hard. Imposter syndrome shows up uninvited, whispering things like, “You’re behind. You don’t belong. You’re too late.”
+
+But I realized something powerful: <strong>I hadn’t fallen behind—I’d just taken a different path.</strong>
+
+One that taught me patience, adaptability, empathy, and creative problem-solving. One that made me a better collaborator and leader.
+
+And the moment I owned that story—fully and unapologetically—everything changed.
+
+## Final Thoughts: Mentorship Isn’t a Ladder—It’s a Circle
+
+I’ve seen brilliant minds return to tech after raising families, after switching careers, after burning out and finding their spark again. And every single one of them had something unique to offer.
+
+If you’re reading this and wondering whether it’s too late to restart, switch lanes, or chase a dream—let me tell you:
+
+👉 <strong>It’s never too late. </strong></br>
+👉 <strong>Your past doesn’t disqualify you—it empowers you.</strong></br>
+👉 <strong>You don’t need permission. Just start.</strong></br>
+
+I used to think mentorship was about climbing up and pulling others along. But I’ve come to see it as more of a circle—where we all take turns helping, learning, supporting, and being supported.
+
+From mom to mentor wasn’t a career pivot. It was a natural unfolding of everything I’d already been doing—just in a new setting, with new tools (and less finger paint).
+
+So here’s to the late bloomers, the re-starters, the career shifters, and the quietly confident folks finding their way back. Your story matters. Your voice matters. And you have more to offer than you realize.
+
+Let’s build, learn, and grow together—one honest, human, slightly-chaotic step at a time. ❤️
