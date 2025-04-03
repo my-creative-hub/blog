@@ -1,6 +1,11 @@
 ---
 date:
   created: 2025-04-02
+categories:
+  - Reflections
+tags:
+  - Random Thoughts
+slug: procrastination-to-publication
 ---
 
 # From Procrastination to Publication: The Winding Road to My First Blog Post
