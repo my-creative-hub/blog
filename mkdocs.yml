@@ -2,8 +2,8 @@ site_name: Juggler's rant
 site_description: A bloggin site built with Material for Mkdocs.
 site_url: https://www.gayathri.dev
 # Repository
-repo_name: my-creative-hub/blog
-repo_url: https://github.com/my-creative-hub/blog
+# repo_name: my-creative-hub/blog
+# repo_url: https://github.com/my-creative-hub/blog
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2025 Gayathri Ramakrishnan
@@ -123,11 +123,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      normalize_issue_symbols: true
-      repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+  # - pymdownx.magiclink:
+  #     normalize_issue_symbols: true
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
