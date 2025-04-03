@@ -1,8 +1,6 @@
 ---
 date:
   created: 2025-04-02
-  updated: 2024-04-02
-readtime: 5
 ---
 
 # From Procrastination to Publication: The Winding Road to My First Blog Post

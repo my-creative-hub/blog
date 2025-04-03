@@ -54,6 +54,7 @@ theme:
 plugins:
   - search
   - blog:
+      blog_dir: .
       blog_toc: true
       archive_date_format: MMMM yyyy
       categories_allowed:
@@ -149,7 +150,9 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: 
-    - blog/index.md
+    - index.md
+  - How to:
+    - how-to/001howto.md
                     
 
 
