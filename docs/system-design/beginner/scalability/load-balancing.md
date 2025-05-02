@@ -54,3 +54,32 @@ Load balancing is the process of distributing incoming network traffic across mu
 | Session      | L5     | Manages sessions and connections                   |
 | Presentation | L6     | Handles encryption and encoding                    |
 | Application  | L7     | Interfaces with end-user apps (HTTP, FTP, etc.)    |
+
+### 🔍 L4 vs L7 Load Balancing
+
+| Feature       | L4 Load Balancer          | L7 Load Balancer                    |
+| ------------- | ------------------------- | ----------------------------------- |
+| Operates On   | TCP/UDP (Transport Layer) | HTTP/HTTPS/gRPC (Application Layer) |
+| Routing logic | IP, port                  | URL, headers, cookies               |
+| Speed         | Fast, efficient           | More flexible, but slower           |
+| Use Case      | Database, game servers    | Web apps, APIs                      |
+
+## 🛠️ Load Balancer Placement
+
+Typical placement in an architecture:
+
+```py
+Client
+|
+[Load Balancer]
+|
+[Server1] [Server2] [Server3]
+```
+
+You can place load balancers:
+
+<ul>
+<li>At the frontend (between client and app)</li>
+<li>Between services (microservices)</li>
+<li>In the backend (between app and database replicas)</li>
+</ul>
