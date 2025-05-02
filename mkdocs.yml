@@ -21,13 +21,14 @@ theme:
     - content.tabs.link
     - header.autohide
     - announce.dismiss
+    - navigation.path    
     - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
-    # - navigation.prune
-    - navigation.sections
+    - navigation.prune
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -170,7 +171,9 @@ nav:
   - Home: 
     - index.md
   - System Design:
-    - Load Balancing: system-design/beginner/scalability/load-balancing.md
+    - Load Balancing: 
+      - Introduction: system-design/beginner/scalability/load-balancing.md
+      - Specialized Types: system-design/beginner/scalability/specialized-load-balancing.md
   - Machine Learning:
     - Types:
       - Supervised Learning: 

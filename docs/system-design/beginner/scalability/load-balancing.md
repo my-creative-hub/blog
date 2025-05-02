@@ -16,7 +16,6 @@ Load balancing is one of the most critical components in designing scalable, res
 
 This blog post is your ultimate guide to load balancing, covering:
 
-<!-- more -->
 <ul>
     <li>Fundamentals</li>
     <li>OSI layers and L4 vs L7</li>
@@ -41,6 +40,8 @@ Load balancing is the process of distributing incoming network traffic across mu
 
 🎢 <strong>Real-life analogy:</strong> Think of a theme park with five ticket booths. If everyone queues at one booth, it creates delays. A supervisor at the entrance sends guests to the booth with the shortest line. That’s load balancing.
 
+---
+
 ## OSI Model and Load Balancing Layers
 
 ### The OSI 7-Layer Model
@@ -64,6 +65,8 @@ Load balancing is the process of distributing incoming network traffic across mu
 | Speed         | Fast, efficient           | More flexible, but slower           |
 | Use Case      | Database, game servers    | Web apps, APIs                      |
 
+---
+
 ## Load Balancer Placement
 
 Typical placement in an architecture:
@@ -83,6 +86,8 @@ You can place load balancers:
 <li>Between services (microservices)</li>
 <li>In the backend (between app and database replicas)</li>
 </ul>
+
+---
 
 ## Load Balancing Algorithms (Deep Dive with Examples)
 
@@ -133,3 +138,5 @@ This lesser-known but elegant strategy randomly selects two servers and assigns 
 🎢 <strong>Analogy:</strong> You're choosing between two checkout lines at random and picking the shorter one. It doesn’t guarantee the best possible choice—but it's fast, simple, and effective.
 
 ⚙️ <strong>Used in:</strong> Systems where speed matters more than perfect balancing (e.g., CDN edge servers).
+
+---
