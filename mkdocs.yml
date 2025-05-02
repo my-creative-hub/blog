@@ -171,11 +171,11 @@ nav:
   - System Design:
     - Load Balancing: system-design/beginner/scalability/load-balancing.md
   - Machine Learning:
-    - Pandas: machine-learning/libraries/001-pandas.md
-    - Supervised Learning:
-      - Logistic Regression:
+    - Types:
+      - Supervised Learning: 
         - machine-learning/models/003-logistic-regression.md
-        # - machine-learning/models/004-linear-regression.md              
-                    
+      # - machine-learning/models/004-linear-regression.md              
+  - Quick Reference:
+      - Pandas: machine-learning/libraries/001-pandas.md                
 
 
