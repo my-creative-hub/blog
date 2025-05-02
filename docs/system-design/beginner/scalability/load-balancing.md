@@ -40,3 +40,17 @@ Load balancing is the process of distributing incoming network traffic across mu
 </ul>
 
 🎢 <strong>Real-life analogy:</strong> Think of a theme park with five ticket booths. If everyone queues at one booth, it creates delays. A supervisor at the entrance sends guests to the booth with the shortest line. That’s load balancing.
+
+## 🧱 OSI Model and Load Balancing Layers
+
+### 📦 The OSI 7-Layer Model
+
+| Layer        | Number | Description                                        |
+| ------------ | ------ | -------------------------------------------------- |
+| Physical     | L1     | Transmits raw bits over the network (cables, etc.) |
+| Data Link    | L2     | Manages frames (e.g., Ethernet, MAC addresses)     |
+| Network      | L3     | Routes packets using IP addresses                  |
+| Transport    | L4     | Delivers messages with TCP/UDP                     |
+| Session      | L5     | Manages sessions and connections                   |
+| Presentation | L6     | Handles encryption and encoding                    |
+| Application  | L7     | Interfaces with end-user apps (HTTP, FTP, etc.)    |
