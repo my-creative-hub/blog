@@ -102,3 +102,25 @@ Adaptive load balancing intelligently routes requests in real-time based on perf
 </ul> -->
 
 ---
+
+### 5. ⚖️ Weighted Load Balancing
+
+Weighted load balancing assigns different weights to servers based on their processing power, network bandwidth, or historical performance. Servers with higher weights receive more requests, ensuring optimal resource utilization across an uneven infrastructure.
+
+| <strong>Key features</strong>                                                                                                                                                            | <strong>Real-world use cases</strong>                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Distributes traffic proportionally based on server weight</li><li>Supports heterogeneity in server capacity</li><li>Simple to configure with static or dynamic weights</li></ul> | <ul><li>Hybrid cloud deployments where cloud VMs have more compute than on-prem servers</li><li>CDN edge servers in different continents with varying bandwidth capacities</li><li>Load testing environments where only a portion of the fleet is fully provisioned</li></ul> |
+
+🎯 <strong>Example:</strong> Server A (high performance) is assigned a weight of 5 and handles 70% of the traffic, while Server B (moderate) has a weight of 2 and receives 30%.
+
+🎢 <strong>Analogy:</strong> In a group project, the most experienced team member handles more complex tasks, while newer members handle fewer, simpler ones.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>HAProxy with weight directive</li>
+<li>NGINX with upstream weight config</li>
+<li>AWS Application Load Balancer with target group weights</li>
+</ul> -->
+
+---
