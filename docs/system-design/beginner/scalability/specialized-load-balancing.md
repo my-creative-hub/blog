@@ -83,22 +83,22 @@ Application-aware load balancing inspects not only the surface-level metadata (l
 
 ### 4. 🔄 Adaptive Load Balancing
 
-Application-aware load balancing inspects not only the surface-level metadata (like HTTP paths), but dives deeper into the actual content and structure of the request, such as gRPC methods, SOAP actions, or GraphQL operations. It enables the load balancer to make fine-grained, context-aware decisions.
+Adaptive load balancing intelligently routes requests in real-time based on performance metrics such as CPU usage, memory load, response latency, and error rates. Rather than using fixed rules, it dynamically adjusts traffic flow to avoid overloading any one server.
 
-| <strong>Key features</strong>                                                                                                                               | <strong>Real-world use cases</strong>                                                                                                                                                                                                            |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <ul><li>Understands protocol-specific behaviors</li><li>Can parse JSON, XML, GraphQL</li><li>Enables field-level routing and deeper observability</li></ul> | <ul><li>Routing GraphQL queries to dedicated microservices based on queried fields</li><li>gRPC method-level routing in a microservices API gateway</li><li>Performing request validation, transformation, and routing in edge proxies</li></ul> |
+| <strong>Key features</strong>                                                                                                                                                                           | <strong>Real-world use cases</strong>                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Monitors server health in real time</li><li>Dynamically shifts traffic to underutilized servers</li><li>Prevents cascading failures</li><li>Enables graceful degradation and recovery</li></ul> | <ul><li>E-commerce sites during Black Friday dynamically reducing traffic to struggling servers</li><li>Cloud-native platforms shifting workloads based on pod-level performance in Kubernetes</li><li>Auto-scaling decisions that pair well with adaptive routings</li></ul> |
 
-🎯 <strong>Example:</strong> A load balancer examines a GraphQL query and forwards it to a microservice that specializes in that data domain.
+🎯 <strong>Example:</strong> If a server’s CPU usage spikes due to a backend process, the adaptive load balancer detects the degradation and diverts new requests to other healthy instances until the load stabilizes.
 
-🎢 <strong>Analogy:</strong> A librarian who doesn’t just see the book’s cover but reads the table of contents to decide which shelf it belongs to.
+🎢 <strong>Analogy:</strong> A traffic cop standing at a four-way junction. If one road gets jammed, they instantly divert new cars to alternate routes until things clear up.
 
 <!-- <strong>Popular products:</strong>
 
 <ul>
-<li>Envoy Proxy</li>
-<li>F5 BIG-IP Advanced WAF</li>
-<li>Kong Gateway with plugins</li>
+<li>Istio with telemetry-based routing</li>
+<li>AWS App Mesh with CloudWatch metrics</li>
+<li>Envoy Proxy with custom adaptive load balancing logic</li>
 </ul> -->
 
 ---
