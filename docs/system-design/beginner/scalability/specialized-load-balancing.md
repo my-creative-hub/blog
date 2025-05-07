@@ -368,3 +368,25 @@ Multi-cloud load balancing spreads workloads across multiple cloud providers (e.
 </ul> -->
 
 ---
+
+### 17. 🧪 A/B Testing Load Balancing
+
+A/B testing load balancing routes a defined percentage of traffic to alternate service versions to experiment with features, performance, or UX.
+
+| <strong>Key features</strong>                                                                                                         | <strong>Real-world use cases</strong> |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| <ul><li>Percentage-based routing</li><li>Tracks KPIs and feedback loops</li><li>Automates rollback if variant underperforms</li></ul> | <ul><li></li></ul>                    |
+
+🎯 <strong>Example:</strong> 10% of users are sent to a new recommendation engine for comparison with the current one.
+
+🎢 <strong>Analogy:</strong> Like giving two groups of moviegoers different trailers to gauge which gets better engagement.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>F5 BIG-IP hardware series</li>
+<li>Citrix ADC (formerly NetScaler)</li>
+<li>A10 Thunder Series</li>
+</ul> -->
+
+---
