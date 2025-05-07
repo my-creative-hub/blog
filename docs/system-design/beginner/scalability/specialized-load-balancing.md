@@ -324,3 +324,25 @@ Hardware-based load balancing uses specialized physical appliances designed to p
 </ul> -->
 
 ---
+
+### 15. 📊 Cost-Aware Load Balancing
+
+Cost-aware load balancing optimizes traffic distribution by factoring in the cost of serving requests. It chooses data centers, servers, or cloud resources that are cheaper to operate at any given time.
+
+| <strong>Key features</strong>                                                                                                                                         | <strong>Real-world use cases</strong> |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| <ul><li>Prioritizes lower-cost compute or network routes</li><li>Integrates with billing and pricing APIs</li><li>Ideal for non-critical or batch workloads</li></ul> | <ul><li></li></ul>                    |
+
+🎯 <strong>Example:</strong> A background image-processing job routes to servers in cheaper availability zones to minimize compute charges.
+
+🎢 <strong>Analogy:</strong> Like ordering takeout from the restaurant offering the best discount that day.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>F5 BIG-IP hardware series</li>
+<li>Citrix ADC (formerly NetScaler)</li>
+<li>A10 Thunder Series</li>
+</ul> -->
+
+---
