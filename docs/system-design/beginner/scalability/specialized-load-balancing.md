@@ -235,3 +235,26 @@ Predictive load balancing takes a proactive approach to traffic management. Inst
 </ul> -->
 
 ---
+
+### 11. 🛡️ Security-Focused Load Balancing
+
+Security-focused load balancing combines traditional load distribution with layers of protection such as Web Application Firewalls (WAF), DDoS mitigation, TLS termination, bot filtering, and rate limiting. These load balancers act as both a traffic router and a gatekeeper.
+
+| <strong>Key features</strong>                                                                                                                                                                             | <strong>Real-world use cases</strong>                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Detects and blocks malicious traffic</li><li>Mitigates DDoS and brute-force attacks</li><li>Terminates and inspects HTTPS connections</li><li>Integrates with threat intelligence feeds</li></ul> | <ul><li>Protecting login portals from credential stuffing</li><li>Throttling abusive API usage</li><li>Filtering bots from e-commerce websites</li></ul> |
+
+🎯 <strong>Example:</strong> Cloudflare's load balancer routes traffic across global PoPs while simultaneously blocking suspicious IPs and rate-limiting requests that trigger WAF rules.
+
+🎢 <strong>Analogy:</strong> Like a nightclub bouncer who not only lets people in but also scans for fake IDs, checks dress codes, and breaks up fights before they start.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>Cloudflare Load Balancer with WAF</li>
+<li>AWS Shield + ALB/WAF</li>
+<li>F5 BIG-IP Advanced Firewall Module</li>
+<li>Azure Application Gateway with WAF</li>
+</ul> -->
+
+---
