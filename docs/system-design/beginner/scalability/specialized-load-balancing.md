@@ -168,3 +168,26 @@ DNS load balancing distributes traffic by resolving a domain name to multiple IP
 </ul> -->
 
 ---
+
+### 8. 🔗 Service Mesh Load Balancing
+
+Service mesh load balancing operates at the microservice level and is typically implemented within each service instance using sidecar proxies (like Envoy). It allows fine-grained control over service-to-service communication inside cloud-native platforms like Kubernetes.
+
+| <strong>Key features</strong>                                                                                                                                                                                                                                                                           | <strong>Real-world use cases</strong>                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Built-in observability and telemetry</li><li>Per-request control including retries, timeouts, and rate limiting</li><li>Can support basic round robin, weighted, and geo-routing</li><li>Secure and consistent communication between services</li><li>Enables zero-trust architecture</li></ul> | <ul><li>Managing traffic between hundreds of microservices in a Kubernetes cluster</li><li>Implementing progressive delivery with canary deployments</li><li>Injecting resiliency (e.g., circuit breakers) into service interactions</li></ul> |
+
+🎯 <strong>Example:</strong> In a Kubernetes environment, Service A calls Service B through a local Envoy sidecar, which intelligently routes traffic, retries failed calls, and collects latency metrics for observability dashboards.
+
+🎢 <strong>Analogy:</strong> Instead of relying on external traffic cops, every car (microservice) has its own AI-driven GPS system that reroutes it dynamically based on traffic and road conditions.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>Istio (built on Envoy)</li>
+<li>Linkerd</li>
+<li>Consul Connect</li>
+<li>AWS App Mesh</li>
+</ul> -->
+
+---
