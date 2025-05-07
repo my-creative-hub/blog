@@ -258,3 +258,25 @@ Security-focused load balancing combines traditional load distribution with laye
 </ul> -->
 
 ---
+
+### 12. 🧬 Hybrid Load Balancing
+
+Hybrid load balancing combines multiple strategies to deliver optimized routing across different layers of the system. It might integrate DNS-level geographic routing, region-specific latency-based decisions, and server-level weighted round robin, all in one cohesive strategy.
+
+| <strong>Key features</strong>                                                                                                                                                                       | <strong>Real-world use cases</strong>                                                                                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Combines the strengths of multiple load balancing techniques</li><li>Provides end-to-end control across layers (global to local)</li><li>Enhances both performance and resilience</li></ul> | <ul><li>Large-scale media platforms delivering video across multiple continents</li><li>Enterprise SaaS tools offering multi-region high-availability zones</li><li>E-commerce platforms managing global sales events with regional optimizations</li></ul> |
+
+🎯 <strong>Example:</strong> Netflix combines DNS-based geographic routing to send users to nearby CDN nodes, latency-based logic to find the fastest cache, and adaptive load balancing to prevent overloading specific nodes during traffic surges.
+
+🎢 <strong>Analogy:</strong> A travel agency that considers your budget, travel time, and weather to recommend the perfect route using flights, trains, and taxis—all orchestrated for comfort and speed.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>Netflix Open Connect</li>
+<li>AWS Global Accelerator + ALB + Route 53 combo</li>
+<li>GCP Load Balancer + Cloud CDN</li>
+</ul> -->
+
+---
