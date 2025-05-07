@@ -346,3 +346,25 @@ Cost-aware load balancing optimizes traffic distribution by factoring in the cos
 </ul> -->
 
 ---
+
+### 16. 🔁 Multi-Cloud Load Balancing
+
+Multi-cloud load balancing spreads workloads across multiple cloud providers (e.g., AWS + Azure + GCP) for redundancy, cost optimization, or regulatory compliance.
+
+| <strong>Key features</strong>                                                                                                    | <strong>Real-world use cases</strong> |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| <ul><li>Avoids vendor lock-in</li><li>Enables failover across cloud providers</li><li>Increases geographic flexibility</li></ul> | <ul><li></li></ul>                    |
+
+🎯 <strong>Example:</strong> An application replicates its frontend across AWS and GCP; traffic is routed based on health and performance.
+
+🎢 <strong>Analogy:</strong> Like having multiple bank accounts in different currencies—you switch based on who offers the best rate.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>F5 BIG-IP hardware series</li>
+<li>Citrix ADC (formerly NetScaler)</li>
+<li>A10 Thunder Series</li>
+</ul> -->
+
+---
