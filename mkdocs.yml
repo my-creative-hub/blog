@@ -170,7 +170,8 @@ markdown_extensions:
 nav:
   - Home: 
     - index.md
-  - System Design:
+  - System Design: 
+    # - system-design/index.md - TODO
     - Load Balancing: 
       - Introduction: system-design/beginner/scalability/load-balancing.md
       - Specialized Types: system-design/beginner/scalability/specialized-load-balancing.md
