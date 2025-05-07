@@ -175,6 +175,8 @@ nav:
     - Load Balancing: 
       - Introduction: system-design/beginner/scalability/load-balancing.md
       - Specialized Types: system-design/beginner/scalability/specialized-load-balancing.md
+      - Summary: system-design/beginner/scalability/load-balancing-summary.md
+      - AWS Load Balancers: system-design/beginner/scalability/load-balancing-aws.md
   - Machine Learning:
     - Types:
       - Supervised Learning: 
