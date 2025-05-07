@@ -146,3 +146,25 @@ Latency-based load balancing prioritizes performance by routing users to the ser
 </ul> -->
 
 ---
+
+### 7. 🌐 DNS Load Balancing
+
+DNS load balancing distributes traffic by resolving a domain name to multiple IP addresses. Each time a DNS query is made, a different IP address may be returned, allowing for a basic form of round robin or geo-aware routing.
+
+| <strong>Key features</strong>                                                                                                                                                                                                                           | <strong>Real-world use cases</strong>                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>Simple to set up and DNS provider-agnostic</li><li>Low overhead and infrastructure cost</li><li>Can support basic round robin, weighted, and geo-routing</li><li>Limited visibility into server health (without external integration)</li></ul> | <ul><li>Websites routing user traffic across global data centers</li><li>SaaS platforms with multi-region deployments</li><li>Static content delivery via CDNs</li></ul> |
+
+🎯 <strong>Example:</strong> A domain like api.example.com may resolve to three different IPs located in North America, Europe, and Asia. Depending on your location, the DNS response may prioritize the nearest or least-loaded server.
+
+🎢 <strong>Analogy:</strong> Like giving out different home addresses depending on the caller’s origin and time of day—you’re still reachable, but the routing changes dynamically based on context.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>AWS Route 53</li>
+<li>Cloudflare DNS with Load Balancing</li>
+<li>NS1 Managed DNS</li>
+</ul> -->
+
+---
