@@ -124,3 +124,25 @@ Weighted load balancing assigns different weights to servers based on their proc
 </ul> -->
 
 ---
+
+### 6. ⚡ Latency-Based Load Balancing
+
+Latency-based load balancing prioritizes performance by routing users to the server or region with the lowest network latency. It constantly monitors network performance metrics and dynamically selects the fastest available path for each user.
+
+| <strong>Key features</strong>                                                                                                                         | <strong>Real-world use cases</strong>                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Minimizes user-perceived delay</li><li>Continuously monitors round-trip times</li><li>Automatically adjusts to real-time conditions</li></ul> | <ul><li>Online gaming platforms optimizing gameplay responsiveness</li><li>Global video conferencing tools like Zoom reducing voice lag</li><li>Content delivery networks enhancing file download speed</li></ul> |
+
+🎯 <strong>Example:</strong> A user connecting from Australia is routed to a server in Sydney that responds faster than the one in Singapore.
+
+🎢 <strong>Analogy:</strong> Choosing the fastest checkout line at a supermarket based on how quickly it's moving.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>AWS Route 53 with latency-based routing</li>
+<li>Azure Front Door</li>
+<li>Google Cloud Load Balancer (with performance profiles)</li>
+</ul> -->
+
+---
