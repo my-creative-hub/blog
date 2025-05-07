@@ -280,3 +280,25 @@ Hybrid load balancing combines multiple strategies to deliver optimized routing 
 </ul> -->
 
 ---
+
+### 13. ♻️ Energy-Aware Load Balancing
+
+Energy-aware load balancing aims to reduce energy consumption and carbon footprint by directing traffic based on data center energy efficiency or availability of renewable power sources. This technique supports the broader goals of sustainability in cloud computing.
+
+| <strong>Key features</strong>                                                                                                                                       | <strong>Real-world use cases</strong>                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Optimizes workloads for green energy usage</li><li>Reduces reliance on fossil-fueled data centers</li><li>Supports corporate sustainability goals</li></ul> | <ul><li>Cloud platforms dynamically directing jobs to solar-powered data centers during daytime</li><li>Enterprises aiming to reduce emissions in compliance with ESG reporting</li><li>Universities and research institutes implementing low-impact computing clusters</li></ul> |
+
+🎯 <strong>Example:</strong> Google directs workloads to data centers powered by solar or wind during peak renewable generation, dynamically adjusting based on regional availability.
+
+🎢 <strong>Analogy:</strong> Like choosing to do laundry during the day when your solar panels are generating electricity instead of at night when you're using power from the grid.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>Google Cloud Carbon-Aware Load Balancing (experimental)</li>
+<li>Microsoft Project Natick (related sustainability research)</li>
+<li>Custom Kubernetes controllers integrating energy metrics</li>
+</ul> -->
+
+---
