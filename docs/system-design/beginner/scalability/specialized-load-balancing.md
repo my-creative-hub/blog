@@ -191,3 +191,25 @@ Service mesh load balancing operates at the microservice level and is typically 
 </ul> -->
 
 ---
+
+### 9. ☁️ Cloud-Native Load Balancing
+
+Cloud-native load balancing is designed to seamlessly integrate with cloud platforms like AWS, Azure, and Google Cloud. These load balancers are tightly coupled with cloud-native services such as auto-scaling, managed DNS, identity and access management (IAM), and observability tools.
+
+| <strong>Key features</strong>                                                                                                                                                                                                                                      | <strong>Real-world use cases</strong>                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Native support for auto-scaling compute instances and containers</li><li>Integrated logging, monitoring, and tracing support</li><li>Dynamic service discovery via platform metadata APIs</li><li>Fully managed, reducing operational complexity</li></ul> | <ul><li>Automatically routing traffic between Kubernetes pods or ECS services as nodes scale up or down</li><li>Integrating with AWS Lambda or Azure Functions for serverless compute</li><li>Adjusting routing dynamically based on changes in a cloud-based service registry</li></ul> |
+
+🎯 <strong>Example:</strong> AWS ALB dynamically distributes traffic to EC2 instances running behind an Auto Scaling Group or to containerized services in ECS/Fargate or Lambda functions without requiring manual configuration.
+
+🎢 <strong>Analogy:</strong> Like a self-driving delivery truck that knows when to change lanes, refill gas, or reroute itself in real time using cloud-based GPS and traffic signals.
+
+<!-- <strong>Popular products:</strong>
+
+<ul>
+<li>AWS Application Load Balancer (ALB)</li>
+<li>Google Cloud Load Balancer</li>
+<li>Azure Load Balancer / Azure Front Door</li>
+</ul> -->
+
+---
