@@ -43,3 +43,22 @@ Cloud platforms provide managed load balancers that abstract away infrastructure
   - Deprecated for new use—use ALB/NLB instead
 
 🎯 <strong>Example:</strong> Route /login requests to an Auth microservice and /checkout to Payments service based on URL path.
+
+## 🔍 Comparison Table
+
+| Feature                |         ALB          |      NLB      | ELB (Classic) |
+| ---------------------- | :------------------: | :-----------: | :-----------: |
+| Layer                  |          L7          |      L4       |     L4/L7     |
+| Protocol               |     HTTP, HTTPS      | TCP, TLS, UDP |   HTTP, TCP   |
+| Content-Based Routing  |          ✅          |      ❌       |      ❌       |
+| TLS Termination        |          ✅          |      ✅       |      ✅       |
+| WebSocket Support      |          ✅          |      ✅       |      ❌       |
+| Health Checks          |         HTTP         |      TCP      |   TCP/HTTP    |
+| Client IP Preservation |          ❌          |      ✅       |      ❌       |
+| Target Types           | Instance, IP, Lambda | Instance, IP  |   Instance    |
+
+## 🧠 Choosing the Right One:
+
+- Use ALB if you need flexible, application-aware routing (e.g., microservices, modern web apps).
+- Use NLB if you need extreme speed and static IPs for low-latency applications.
+- Use ELB only for backward compatibility with older systems.
