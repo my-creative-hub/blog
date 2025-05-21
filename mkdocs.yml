@@ -165,10 +165,16 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true  
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  
 # Page tree
 nav:
-  - Home: 
+  - Blog: 
     - index.md
   - System Design: 
     # - system-design/index.md - TODO
@@ -178,6 +184,7 @@ nav:
       - Summary: system-design/beginner/scalability/load-balancing-summary.md
       - AWS Load Balancers: system-design/beginner/scalability/load-balancing-aws.md
   - Machine Learning:
+    - Statistical Concepts: machine-learning/foundation/statistical_concepts_blog.md
     - Types:
       - Supervised Learning: 
         - machine-learning/models/003-logistic-regression.md
