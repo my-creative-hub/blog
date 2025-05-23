@@ -115,7 +115,7 @@ Vector \(x = [3, -4]\) → L2 norm = \(\sqrt{9 + 16} = 5\)
 
 ---
 
-## 11–13. Distance Metrics
+## 11. Distance Metrics
 
 - **Manhattan (L1):** \(|1−4| + |2−6| = 7\)
 - **Euclidean (L2):** \(\sqrt{(3^2 + 4^2)} = 5\)
@@ -123,7 +123,7 @@ Vector \(x = [3, -4]\) → L2 norm = \(\sqrt{9 + 16} = 5\)
 
 ---
 
-## Inter-relations Summary
+### Inter-relations Summary
 
 - Central tendency: Mean, Median, Mode
 - Dispersion: MAD, SD
@@ -133,17 +133,15 @@ Vector \(x = [3, -4]\) → L2 norm = \(\sqrt{9 + 16} = 5\)
 
 ---
 
-## 14. Regularization Deep Dive
+## 12. Regularization Deep Dive
 
-### The Problem:
-
-Overfitting in linear regression due to:
+The Problem: Overfitting in linear regression due to,
 
 - Too many features
 - Multicollinearity
 - Small datasets
 
-### Solution: Regularization
+Solution: Regularization
 
 Adds penalty to cost function.
 
@@ -154,14 +152,14 @@ Adds penalty to cost function.
 
 ---
 
-## 15. Outlier
+## 13. Outlier
 
 **Definition:** Data point significantly different from others.  
 **Example:** \([10, 12, 11, 13, 99]\) → 99 is an outlier.
 
 ---
 
-## 16. Kurtosis
+## 14. Kurtosis
 
 **Definition:** How "peaked" a distribution is.
 
@@ -170,21 +168,21 @@ Adds penalty to cost function.
 
 ---
 
-## 17. Logarithmic Function
+## 15. Logarithmic Function
 
 **Definition:** The inverse of an exponential.  
 **Example:** \( \log\_{10}(1000) = 3 \)
 
 ---
 
-## 18. Log-Normal Distribution
+## 16. Log-Normal Distribution
 
 **Definition:** When the log of the variable is normally distributed.  
 **Example:** Incomes often follow a log-normal pattern.
 
 ---
 
-## 19. Cosine Distance
+## 17. Cosine Distance
 
 **Definition:** 1 - Cosine similarity. Measures dissimilarity based on angle.
 
@@ -192,7 +190,7 @@ Adds penalty to cost function.
 
 ---
 
-## 20. Cosine Similarity
+## 18. Cosine Similarity
 
 **Definition:** Measures similarity between two vectors by comparing angle.
 
@@ -200,14 +198,14 @@ Adds penalty to cost function.
 
 ---
 
-## 21. A/B Testing
+## 19. A/B Testing
 
 **Definition:** Comparing two versions to test which performs better.  
 **Example:** Version A vs. Version B of a webpage.
 
 ---
 
-## 22. Median Absolute Deviation (MAD)
+## 20. Median Absolute Deviation (MAD)
 
 **Definition:** Median of the absolute deviations from dataset’s median.
 
@@ -217,55 +215,55 @@ Absolute deviations: \([4, 2, 0, 2, 94]\) → MAD = 2
 
 ---
 
-## 23. Modified Z-score
+## 21. Modified Z-score
 
 **Definition:** Z-score using MAD. Robust to outliers and skew.
 
 ---
 
-## 24. Hypothesis Testing
+## 22. Hypothesis Testing
 
 **Definition:** Using sample data to make inferences about population.  
 **Example:** "Does a new teaching method improve scores?"
 
 ---
 
-## 25. Sample Size
+## 23. Sample Size
 
 **Definition:** Number of data points in a sample.  
 **Example:** Surveying 100 people → Sample size = 100
 
 ---
 
-## 26. T-Test
+## 24. T-Test
 
 **Definition:** Compares means of two groups.  
 **Example:** Two classroom test scores.
 
 ---
 
-## 27. ANOVA (Analysis of Variance)
+## 25. ANOVA (Analysis of Variance)
 
 **Definition:** Tests if means of 3+ groups differ significantly.  
 **Example:** Comparing three teaching methods.
 
 ---
 
-## 28. Chi-Square Test
+## 26. Chi-Square Test
 
 **Definition:** Tests association between categorical variables.  
 **Example:** Gender vs. product preference.
 
 ---
 
-## 29. Null Hypothesis (H₀)
+## 27. Null Hypothesis (H₀)
 
 **Definition:** Assumes no effect or difference.  
 **Example:** "The new drug has no effect."
 
 ---
 
-## 30. Alternative Hypothesis (H₁)
+## 28. Alternative Hypothesis (H₁)
 
 **Definition:** There is an effect or difference.  
 **Example:** "The new drug improves recovery."

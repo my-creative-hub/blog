@@ -11,10 +11,10 @@ copyright: Copyright &copy; 2016 - 2025 Gayathri Ramakrishnan
 theme:
   name: material
   custom_dir: overrides
-  favicon: images/favicon.png
+  favicon: images/pencil-alt-solid.png
   language: en
   icon:
-    logo: fontawesome/solid/paperclip
+    logo: fontawesome/solid/pencil
   features:
     - content.code.annotate  
     - content.code.copy
@@ -171,7 +171,7 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  
+
 # Page tree
 nav:
   - Blog: 
