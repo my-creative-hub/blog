@@ -176,6 +176,10 @@ extra_javascript:
 nav:
   - Blog: 
     - index.md
+  - Chaos to code:
+    - coding-patterns/index.md
+    - Blind75:
+      - 01. Contains Duplicate: coding-patterns/blind75/01_contains_duplicate.md
   - System Design: 
     # - system-design/index.md - TODO
     - Load Balancing: 
